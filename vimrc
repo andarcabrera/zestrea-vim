@@ -27,6 +27,7 @@ Bundle "https://github.com/jimenezrick/vimerl"
 Bundle "https://github.com/hdima/python-syntax"
 Bundle "https://github.com/junegunn/vim-easy-align"
 Bundle "https://github.com/elixir-lang/vim-elixir"
+Plugin 'christoomey/vim-tmux-navigator'
 
 filetype plugin indent on
 syntax on
@@ -128,3 +129,6 @@ map <Leader>. :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+inoremap jj <Esc>
+
+

@@ -1,6 +1,6 @@
 [user]
-  name = Kevin Buchanan
-  email = kevaustinbuch@gmail.com
+	name = Anda Cabrera
+	email = andarcabrera@gmail.com
 
 [push]
   default = simple
@@ -25,7 +25,7 @@
   up = log --stat @{u}..HEAD
 
 [credential]
-  helper = osxkeychain
+	helper = osxkeychain
 
 [color]
   ui = true
